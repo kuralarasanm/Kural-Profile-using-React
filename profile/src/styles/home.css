@@ -1,0 +1,131 @@
+.profile {
+  background-color: #0BCEAF;
+
+}
+
+.profile img {
+  border-radius: 100%;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  top: 9em;
+  left: 12em;
+  border: 2px solid#ffffff;
+
+}
+
+#down{
+  animation: animate 3s linear infinite;
+  transition: 2s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(-10px);
+    text-shadow: 0 50px 0 #fff;
+    transition: 2s;
+    
+  }
+
+  20% {
+    transform: translateY(0px);
+  }
+
+  40% {
+    transform: translateY(0px);
+  }
+
+  60% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(50px);
+  }
+}
+
+.profilecontent {
+  /* border: 2px solid olive; */
+  position: relative;
+  left: 42em;
+  bottom: 12em;
+  color: #ffffff;
+  ;
+
+}
+
+#down {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 120px;
+  top: 450px;
+  border: none;
+  /* fill: #ffffff; */
+
+}
+
+#iam {
+  font-size: 30px;
+}
+
+#name {
+  font-size: 70px;
+  padding-top: 20px;
+  -webkit-text-stroke: 2px #ffffff;
+  color: #0BCEAF;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 1200px) {
+  #name {
+    font-size: calc(1.575rem + 3.9vw);
+  }
+}
+
+#course {
+  font-size: 40px;
+  padding-top: 20px;
+  border: 2px solid red;
+}
+
+.profilecontent button {
+  height: 50px;
+  width: 150px;
+  border-radius: 100px;
+  color: #ffffff;
+  background-color: #0BCEAF;
+  border: 1px solid #ffffff;
+  margin-top: 80px;
+  font-size: 15px;
+}
+
+.profilecontent button:hover {
+  background-color: #ffffff;
+  color: crimson;
+}
+
+/* element.style {
+    -webkit-text-stroke: 2px #ffffff;
+  }
+  .text-primary {
+    color: #0BCEAF !important;
+  }
+  .text-uppercase {
+    text-transform: uppercase !important;
+  }
+  .mb-2, .my-2 {
+    margin-bottom: 0.5rem !important;
+  }
+  @media (max-width: 1200px) {
+    .display-3 {
+      font-size: calc(1.575rem + 3.9vw) ;
+    }
+  }
+  .display-3{
+    font-weight: 900;
+    font-family: 'Roboto',sans-serif;
+    font-size: 50px;
+  } */

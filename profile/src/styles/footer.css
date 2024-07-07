@@ -1,0 +1,62 @@
+
+.Profileend{
+    height: 330px;
+    background-color: #0BCEAF;
+    margin-top: 100px;
+  }
+  .end1{
+    position: relative;
+    top: 100px;
+    /* left: 42%; */
+  }
+  .end1 img{
+    color: #ffffff;
+    background-color: #ffffff;
+    border-radius: 100px;
+    position: relative;
+    z-index: 2;
+  }
+  .end2{
+    margin-left: 41%;
+    margin-top: 8%;
+    display: flex;
+  }
+  .end2 hr{
+    
+    margin-right: 10px;
+    border: 1px solid #ffffff;
+  }
+  
+  .end2 a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+  
+    padding-right: 15px;
+    /* border-right: 1px solid #ffffff; */
+    
+  }
+  .end2 a:hover,.end3 a:hover{
+    text-decoration: underline;
+  }
+  .end3{
+    color: #ffffff;
+    margin-left: 30%;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .end3 a{
+    text-decoration: none;
+    color: #ffffff;
+  
+  }
+  .end3 b {
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+  }
+  #insta{
+    position: relative;
+    right: 10px;
+    z-index: 1;
+  }

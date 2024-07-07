@@ -1,0 +1,57 @@
+.contactcontent{
+    margin-left: 24%;
+  }
+  .contactcontent1 input{
+    height: 50px;
+    width: 400px;
+    border-radius: 100px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    /* outline: none; */
+    outline-color: #0BCEAF;
+    padding-left: 15px;
+  }
+  .contactcontent1 input::placeholder,.contactcontent2 input::placeholder{
+    /* padding-left: 15px; */
+  }
+  .contactcontent1 text{
+    /* padding-left: 15px; */
+  }
+  .contactcontent2 input{
+    height: 50px;
+    width: 800px;
+    border-radius: 100px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    outline-color: #0BCEAF;
+    padding-left: 15px;
+  }
+  .contactcontent3 input{
+    height: 150px;
+    width: 800px;
+    border-radius: 30px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    outline-color: #0BCEAF;
+    padding-left: 20px;
+    padding-bottom: 80px;
+  }
+  .contactcontent3 input::placeholder{
+    /* padding-left: 20px;
+    position: relative;
+    bottom: 35px; */
+  }
+  .contactcontent button{
+    height: 50px;
+    width: 170px;
+    color: #0BCEAF;
+    margin-top: 20px;
+    margin-left: 25%;
+    border-radius: 100px;
+    border: 2px solid #0BCEAF;
+    background: #ffffff;
+  }
+  .contactcontent button:hover{
+    background: #0BCEAF;
+    color: #ffffff;
+  }

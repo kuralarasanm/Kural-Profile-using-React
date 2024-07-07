@@ -1,0 +1,79 @@
+.folio {
+  /* display: flex; */
+  font-size: 30px;
+}
+
+.folio h1 {
+  color: #0BCEAF;
+  display: flex;
+}
+
+.folio h2 {
+  color: black;
+  position: relative;
+  top: 20px;
+  font-size: 40px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background-color: #ffffff;
+  justify-content: space-around;
+  border-bottom: 2px solid #0BCEAF;
+  z-index: 10;
+  /* position: fixed; */
+  
+}
+
+.navbar-a a {
+  text-decoration: none;
+  margin-right: 50px;
+  color: black;
+  font-size: 20px;
+  /* transition: 1s ease-in-out; */
+  transition: .3s;
+
+}
+
+.navbar-a a:hover,
+.navbar-a a.active {
+  color: #0BCEAF;
+}
+
+.navbar-hire button,
+.aboutbutton button {
+  height: 40px;
+  width: 120px;
+  border-radius: 100px;
+  border: 1px solid #0BCEAF;
+  color: #0BCEAF;
+  background-color: #ffffff;
+}
+
+/* .navbar-hire button:hover,
+.aboutbutton button:hover {
+
+  background-color: #0BCEAF;
+  color: #ffffff;
+} */
+
+.me-auto a{
+  font-size: 20px;
+}
+.me-auto a:hover{
+  color: #0BCEAF;
+}
+a.me-5.nav-link.active{
+  color: #0BCEAF;
+}
+.navbar{
+  position: fixed;
+  top: 0;
+}
+nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light{
+  position: fixed;
+  top: 0;
+}

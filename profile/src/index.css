@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'poppins',sans-serif;
+}
+body{
+  /* background-color: #0BCEAF; */
+  overflow-x: hidden;
+}
+
+.abouthead h1,.skillhead h1,.educationhead h1,.projecthead h1,.contacthead h1{
+  text-align: center;
+  font-size: 50px; 
+  color: #0BCEAF;
+  /* margin-top: 3em; */
+  position: relative;
+  bottom: 55px;
+  z-index: 2;
+  
+}
+.aboutcontent{
+  display: flex;
+  margin-left: 180px;
+  margin-top: 40px;
+}
+.aboutcontent1{
+  display: flex;
+}
+.aboutcontent1 p{
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.aboutcontent1 p b{
+  color: #0BCEAF;
+  font-size: 20px;
+}
+#aboutdesign,#skilldesign,#educationdesign,#projectdesign,#contactdesign{
+  /* border: 2px solid firebrick; */
+  font-size: 150px;
+  /* padding-top: 20px; */
+  -webkit-text-stroke: 1px #dee2e6;
+  color: #ffffff;
+  /* text-transform: uppercase; */
+  font-weight: 900;
+  font-family: 'Roboto',sans-serif;
+  position: relative;
+  top: 70px;
+  z-index: 1;
+}
+@media (max-width: 1200px) {
+  #aboutdesign,#skilldesign {
+    font-size: calc(1.575rem + 3.9vw) ;
+  }
+}
+.aboutbutton{
+  margin-top: 70px;
+  margin-left: 35px;
+}
+/* --------------------------------------------------------- */
+
+.projectcollegemimi{
+  border: 3px solid #0BCEAF;
+  height: 530px;
+  width: 550px;
+  border-radius: 10px;
+}
+.projectcollegemain{
+  border: 3px solid #0BCEAF;
+  height: 530px;
+  width: 550px;
+  border-radius: 10px;
+  
+}
+.projectcollegemimi h1,.projectcollegemain h1{
+  color: #0BCEAF;
+  text-align: center;
+  padding-top: 40px;
+}
+.projectcollegemimi p{
+  padding: 20px 40px 0px;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: justify;
+}
+.projectcollegemain p{
+  padding-top: 20px;
+}
+.projectcollegemain li{
+  padding: 0px 40px 0px;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: justify;
+  
+}
+.projectcollege{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+#projectheading{
+  text-align: center;
+  font-size: 30px;
+  color: #0BCEAF;
+  margin-top: 25px;
+}
+.projectcollege h2{
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* .container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ height: 100%;
+ padding: 0 3rem;
+} */
+
+.container h1, h2 {
+ font-weight: 200;
+ margin: 0.4rem;
+}
+
+.container h1 {
+ font-size: 3.5rem;
+}
+
+.container h2 {
+ font-size: 2rem;
+ color: #aaa;
+}
+
+/* Cursor */
+.txt-type > .txt {
+ border-right: 0.2rem solid #fcfafa;
+}
